@@ -7,7 +7,7 @@ window.onload=function(){
     
     search.onclick=function(){
         var httpRequest= new XMLHttpRequest();
-        var url= "https://info2180-lab6-dalebiggs.c9users.io/request.php?q=ajax";
+        var url= "https://info2180-lab6-dalebiggs.c9users.io/request.php?q=".concat(input.value);
         
         httpRequest.onreadystatechange= handler;
         httpRequest.open('GET', url);
