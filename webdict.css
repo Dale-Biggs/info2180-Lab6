@@ -1,0 +1,30 @@
+#head {
+    background-color: lightblue;
+    border:5px solid lightblue;
+    color:white;
+    text-align: center;
+    
+    
+}
+
+body{
+    text-align: left;
+    background-image: url("background.jpg");
+    
+    
+}
+
+#content{
+    background-color: lightblue;
+}
+
+#shell{
+    background-color: lightblue;
+    color:black;
+    
+}
+
+#search, #getall{
+    background-color: lightblue;
+    
+}

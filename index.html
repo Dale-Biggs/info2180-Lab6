@@ -4,21 +4,24 @@
     <head>
         <title> Web Dictionary</title>
         <script type="text/javascript" src="webdict.js"></script>
+        <link type="text/css" href="webdict.css" rel="stylesheet"></link>
     </head>
     
     <body>
-        <div>
+        <div id="head">
             <h1> Web Dictionary</h1>
         </div>
-        <div> 
-            <p> Look up the definition of a word (eg. ajax, html, bar, php, javascript or css)</p>
-            <input type="input" name="word" id="input"></input> <input type="submit" value="search" id="search"></input>
-            <hr> <br>
-            <h2>Result</h2>
+        <div id="shell">
+            <div id="content"> 
+                <p> Look up the definition of a word (eg. ajax, html, bar, php, javascript or css)</p>
+                <input type="input" name="word" id="input"></input> <input type="submit" value="search" id="search"></input> <button  id="getall">Get all Definitons</button>
+                <hr> <br>
+                <h2>Result</h2>
             
-        </div>
-        <div id="result">
-                <p> definition shows here</p>
+            </div>
+            <div id="result">
+                
+            </div>
         </div>
         
     </body>
